@@ -1,0 +1,15 @@
+// string -> int dictionary
+// nodes
+0 8090 		// net/network port 8090
+1 8081 		// node 1 port 8081
+2 8082
+3 8083
+4 8084
+
+// network arcs
+- 10  		// default delay (for unspecified reverse arcs)
+1-3 3000
+1-4 6000  	// arc 1-4 delay 6000ms
+2-1 1000
+3-2 1000
+4-3 1000
